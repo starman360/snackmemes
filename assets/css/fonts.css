@@ -1,0 +1,82 @@
+
+
+@font-face {
+    font-family: Gotham;
+    font-weight: 200;
+    /* font-style: normal; */
+    src: url(../fonts/Gotham-Light.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    font-weight: lighter;
+    /* font-style: normal; */
+    src: url(../fonts/Gotham-Thin.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    font-weight: bold;
+    /* font-style: normal; */
+    src: url(../fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: Gotham;
+    font-weight: bolder;
+    /* font-style: normal; */
+    src: url(../fonts/Gotham-Black.otf);
+}
+
+@font-face { 
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Book.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/ChronicleDisp-Roman.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: 200;
+    font-style: normal;
+    src: url(../fonts/ChronicleDisp-Light.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: lighter;
+    font-style: normal;
+    src: url(../fonts/ChronicleDisp-XLight.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/ChronicleDisp-Bold.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: bolder;
+    font-style: normal;
+    src: url(../fonts/ChronicleDisp-Black.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/ChronicleDisp-Italic.otf);
+}
+
+@font-face {
+    font-family: Chronicle;
+    font-weight: 200;
+    font-style: italic;
+    src: url(../fonts/ChronicleDisp-LightItal.otf);
