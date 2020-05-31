@@ -10,8 +10,8 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
     var canvasHeight = $(window).height()/2;
 }
 else {
-    var canvasWidth = 1000;
-    var canvasHeight = 500;
+    var canvasWidth = Math.floor( $(window).width() * 0.75 );
+    var canvasHeight = Math.floor( $(window).height() * 0.66 );
 }
 
 
