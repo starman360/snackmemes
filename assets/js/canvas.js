@@ -24,6 +24,17 @@ c.strokeStyle = 'white';
 var STARTING_POINTS = 6;
 var SNAKE_LENGTH = 1;
 
+try {
+    query = window.location.href.split("?")[1]
+    if (query.split('=')[0] == 'sl'){
+        let snakel = query.split('=')[1];
+        if (snakel < STARTING_POINTS - 1 && snakel > 0){
+            SNAKE_LENGTH = snakel;
+        }
+    }
+} catch (error) {
+    console.log("No custom snake length")
+}
 
 
 let Points = [

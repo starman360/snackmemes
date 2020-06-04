@@ -13,18 +13,295 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body id="skrollr-body" data-spy="scroll" data-target="#menu">
     <div id="title" class="page full-window">
         <canvas id="art"></canvas>
-        <div class="container-fluid sink">
-            <nav class="nav flex-column">
-                <a class="nav-link text-lighter active" href="index.html">home</a>
-                <a class="nav-link text-lighter" href="#">about</a>
-                <a class="nav-link text-lighter" href="#">portfolio</a>
-                <a class="nav-link text-lighter" href="file://anmolmodur.com/AnmolModur_Resume.pdf" target="_blank">resume</a>
-            </nav>
-            <p>Hi! My name is Anmol</br> I am a Robotic Engineer.</p>
+        <div class="container-fluid socialmedia">
+            <div class="row">
+                <div class="col">
+                    <a href="http://github.com/starman360" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/images/github.png" alt="Github"></a>
+                </div>
+                <div class="col">
+                    <a href="mailto:asm7148@rit.edu?subject=Mail from Our Site" target="_blank"
+                        rel="noopener noreferrer"><img src="assets/images/email.png" alt="Mail"></a></a>
+                </div>
+                <div class="col">
+                    <a href="http://www.linkedin.com/in/anmolmodur/" target="_blank" rel="noopener noreferrer"><img
+                            src="assets/images/linkedin.png" alt="LinkedIn"></a></a>
+                </div>
+            </div>
         </div>
+        <div class="container-fluid sink" data-top="opacity:0;" data-bottom="opacity:1;">
+            <div class="row justify-content-between">
+                <nav class="nav flex-column col-12">
+                    <a class="nav-link text-lighter active" href="index.html">home</a>
+                    <a class="nav-link text-lighter" href="#about">about</a>
+                    <a class="nav-link text-lighter" href="#portfolio">portfolio</a>
+                    <a class="nav-link text-lighter" href="http://anmolmodur.com/AnmolModur_Resume.pdf"
+                        target="_blank">resume</a>
+                </nav>
+                <h1 id="Word" class="col-12 col-md-6">Hi! My name is Anmol</br> I am a robotic engineer.</h1>
+                <div class="input-div col-10 col-md-4 col-xl-3">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Set the beam length. (1-4)"
+                            aria-label="Beam Length" aria-describedby="button-addon2">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button" id="SetSL">Set</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="downarrow" src="assets/images/chevron-bottom.png" alt="">
+    </div>
+    <div class="page ftcontent">
+        <div class="side-cont float-left sticky-top" data-300-top="opacity: 0;" data-100-top="opacity: 1;">
+            <nav id="menunav" class="nav flex-column">
+                <div class="navbar navbar-dark">
+                    <h1 id="pagename">about</h1>
+                    <button id="navtog" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+                        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div id="menu" class="">
+                    <a class="nav-link text-lighter active" href="#">home</a>
+                    <a class="nav-link text-lighter" href="#about">about</a>
+                    <a class="nav-link text-lighter" href="#portfolio">portfolio</a>
+                    <a class="nav-link text-lighter" href="http://anmolmodur.com/AnmolModur_Resume.pdf"
+                        target="_blank">resume</a>
+                </div>
+            </nav>
+
+            <div class="container-fluid socialmedia">
+                <div class="row">
+                    <div class="col">
+                        <a href="http://github.com/starman360" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/images/github.png" alt="Github"></a>
+                    </div>
+                    <div class="col">
+                        <a href="mailto:asm7148@rit.edu?subject=Mail from Our Site" target="_blank"
+                            rel="noopener noreferrer"><img src="assets/images/email.png" alt="Mail"></a></a>
+                    </div>
+                    <div class="col">
+                        <a href="http://www.linkedin.com/in/anmolmodur/" target="_blank" rel="noopener noreferrer"><img
+                                src="assets/images/linkedin.png" alt="LinkedIn"></a></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="content" data-500-top="opacity: 0;" data-100-top="opacity: 1;">
+            <div data-center-bottom="opacity: 1;" data-top-bottom="opacity: 0;" id="about" class="container-fluid">
+                <div class="row">
+                    <img src="assets/images/Anmol.jpeg" alt="Anmol Modur" class="col-md-4 col-9 offset-md-0">
+                    <div class="col-12 col-md-7 col-xl-5">
+                        <h1 data-center-top="opacity: 0;" data-center-bottom="opacity: 1;" class="c1 col-12">
+                            I am a 23 year old, adventure seeking, out-of-the-box creative, problem solving
+                            enthusiast.</h1>
+                        <h2 data-center-top="opacity: 0;" data-center-bottom="opacity: 1;" class="c2 col-12">
+                            I love everything from math to science and engineering with a strong passion for robotics. I got my BS in Electrical Engineering at RIT in 2019 and am currently persuing my MS in EE there aswell.
+                        </h2>
+                        <h2 data-center-top="opacity: 0;" data-center-bottom="opacity: 1;" class="c3 col-12">
+                            I enjoy learning and pushing my creativity to explore possibilities I don't think exist yet. As an hardware engineer, I see the elegance in how simple solutions are often the best. As an entrepreneur, I understand why decisions need to be made for the greater benefit of the business. As a software developer, I see how to enhance the experience and capabilities of the hardware.
+
+                            Perspective is the key to understanding.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div data-top="opacity: 1;" data-center-top="opacity: 0;" id="portfolio"
+                class="card-columns container full-window-d">
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/eyesearch.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">EyeSearch</h2>
+                        <p class="card-text">Personalize Shopping Experience with Glasses</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Glasses track eyes in real time</li>
+                        <li class="list-group-item">Uses computer vision to scan barcodes</li>
+                        <li class="list-group-item">Updates mobile app showing product info</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/eyeshop" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <p>The reasonable man adapts himself to the world; the unreasonable one persists in trying to
+                            adapt the world to himself. Therefore, all progress depends on the unreasonable man.</p>
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                <cite title="Source Title">George Bernard Shaw</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/blindspot.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Blind Spot</h2>
+                        <p class="card-text">Find Your Slot</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Uses computer vision and ML to identify parking spaces</li>
+                        <li class="list-group-item">Updates mobile app</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/blind-spot-sj87xg" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/homeai.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">HomeAI</h2>
+                        <p class="card-text">Smart home device aggregation integrated with machine learning</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Learn Trends on useage of smart home devices</li>
+                        <li class="list-group-item">Control them to save energy</li>
+                        <li class="list-group-item">Set up time schedules to automate them</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/homeai" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/makemoves.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Make Moves</h2>
+                        <p class="card-text">Put your best foot forward and run smart</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Idea brainstorm of a smart insole</li>
+                        <li class="list-group-item">Collects bio-metric data and is able to process it</li>
+                        <li class="list-group-item">Hope was to understand the human body through the foot</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/make-moves" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/turbine.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Turbine</h2>
+                        <p class="card-text">Saving energy using Wind technologies</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Website to map out wind patterns</li>
+                        <li class="list-group-item">Helps find places to install wind turbines for energy harvest</li>
+                        <li class="list-group-item">Helps conservationists understand wind patterns in local areas</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/turbine-p0a3nb" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card p-3">
+                    <blockquote class="blockquote mb-0 card-body">
+                        <!-- <p>Just Do It</p> -->
+                        <img class="card-img-top" src="assets/images/justdoit.png" alt="Just Do it">
+                        <footer class="blockquote-footer">
+                            <small class="text-muted">
+                                <cite title="Nike">Nike</cite>
+                            </small>
+                        </footer>
+                    </blockquote>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/headsmart.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Head Smart</h2>
+                        <p class="card-text">A smarter way to commute</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Created a wireless helmet with safety features and turn signals</li>
+                        <li class="list-group-item">Gives navigation through haptic feedback</li>
+                        <li class="list-group-item">SOS alerts on crash</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/eyeshop" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <img class="card-img-top" src="assets/portfolio/eyesearch.png" alt="Card image cap"> -->
+                    <div class="card-body">
+                        <h2 class="card-title">Let's go!</h2>
+                        <p class="card-text">An app that plans your vacation, Now!</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Plans an entire trip starting 6hrs from when you press the button on
+                            the site</li>
+                        <li class="list-group-item">Books ubers, airfare, restaurants, plans events at the location,
+                        </li>
+                        <li class="list-group-item">Removes the hesitation in planning a trip</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/let-s-go" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/Otto.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Otto</h2>
+                        <p class="card-text">Swarming search areas to save lives at record speeds</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Assists in firefighting by giving another set of eyes</li>
+                        <li class="list-group-item">Built a drone that is easy to deploy</li>
+                        <li class="list-group-item">Can work with other drones to form a swarm</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/otto" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/powerglove.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">Powerglove 2.0</h2>
+                        <p class="card-text">Get your power back</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">A glove to assist arthritis patients with perfoming hand excercies
+                        </li>
+                        <li class="list-group-item">Records finger movements and syncs to phone</li>
+                        <li class="list-group-item">Ensures hand excercises are effective and makes it fun</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/powerglove" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="assets/portfolio/nicoquit.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h2 class="card-title">NicoQuit</h2>
+                        <p class="card-text">Hurry on and get off that nicotine</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">A simple website to help reduce nicotine addiction</li>
+                        <li class="list-group-item">User inputs how much they smoke every day</li>
+                        <li class="list-group-item">Easy to print reports for doctors</li>
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://devpost.com/software/nicoquit" class="card-link">See the full project
+                            here</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -35,6 +312,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="assets/js/skrollr.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/canvas.js"></script>
 </body>
