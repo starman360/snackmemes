@@ -281,12 +281,18 @@ input {
         column-count: 4;
         width: 100%;
         max-width: 1500px;
-        margin-right: auto;
-        margin-left: auto;
+        /* margin-right: auto;
+        margin-left: auto; */
+
+        transform: translateX(-150px);
     }
     .card ul {
         display: inline-block;
         color: #a1a1a1;
+    }
+
+    .mobile-only {
+        display: none;
     }
 }
 
@@ -311,6 +317,10 @@ input {
 
     .card-text {
         font-size: 1em;
+    }
+
+    .desktop-only {
+        display: none;
     }
 }
 
