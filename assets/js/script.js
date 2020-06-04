@@ -71,14 +71,16 @@ $(window).scroll(() => {
 
 $("#SetSL").click(() => {
     data = $("input").val();
+    window.location.href(window.location.href.split("?")[0] + "?sl=" + data);
     window.location.assign(window.location.href.split("?")[0] + "?sl=" + data);
-    location.reload();
     // console.log(data);
+    location.reload();
 });
 
 $("#beamlength").on('keyup', function (e) {
     if (e.keyCode === 13) {
         data = $("input").val();
+        window.location.href(window.location.href.split("?")[0] + "?sl=" + data);
         window.location.assign(window.location.href.split("?")[0] + "?sl=" + data);
         location.reload();
     }
