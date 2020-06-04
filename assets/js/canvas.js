@@ -24,6 +24,7 @@ c.strokeStyle = 'white';
 var STARTING_POINTS = 6;
 var SNAKE_LENGTH = 1;
 
+
 try {
     query = window.location.href.split("?")[1]
     if (query.split('=')[0] == 'sl'){

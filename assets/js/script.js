@@ -76,6 +76,14 @@ $("#SetSL").click(() => {
     // console.log(data);
 });
 
+$("#beamlength").on('keyup', function (e) {
+    if (e.keyCode === 13) {
+        data = $("input").val();
+        window.location.assign(window.location.href.split("?")[0] + "?sl=" + data);
+        location.reload();
+    }
+});
+
 wordlist = ['a robotic engineer', 'a creator', 'a designer', 'a thinker', 'a tinkerer', 'a problem solver', 'a envisioner', 'a leader', 'hopeful', 'happy', 'excited', 'exhausted', 'human', 'joyful', 'awesome', 'crazy', 'a cool guy'];
 
 
