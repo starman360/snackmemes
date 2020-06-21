@@ -61,6 +61,9 @@ $(window).scroll(() => {
     if (Utils.isElementTopInView($('#portfolio'), false)) {
         $("#pagename").text("portfolio");
     }
+    if (Utils.isElementTopInView($('#publications'), false)) {
+        $("#pagename").text("publications");
+    }
     // $("#navtog").addClass('collapsed');
     $("#menu").collapse('hide');
     $("body").click(() => {
