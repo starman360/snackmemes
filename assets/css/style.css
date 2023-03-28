@@ -195,6 +195,10 @@ input {
     color: #7c7c96;
 }
 
+#year-old {
+    display: inline;
+}
+
 @media (min-width: 768px) {
     .full-window-d {
         /* width: 100vw; */

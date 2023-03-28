@@ -102,3 +102,9 @@ function wordChange() {
 }
 
 wordChange();
+
+$("#year-old").text(()=>{
+    let ageDifMs = Date.now() - new Date("1996-07-10");
+    let ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+});
